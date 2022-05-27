@@ -35,12 +35,24 @@ header {
     flex-direction:column;
        
 }
+.item__imagem{
 
-.item__imagem {
-    background-image: linear-gradient(red, blue,pink ,yellow);
     height: 120px;
     margin:30px;
+}
 
+.item__imagem--melodia {
+
+    background-image: linear-gradient(red, blue,pink ,yellow);
+   
+}
+.item__imagem--educacao{
+
+    background: url("./img/educacao.png");
+}    
+.item__autor{
+
+    font-size:13px;
 }
 
 .item__imagem__frase {
